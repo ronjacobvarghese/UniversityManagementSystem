@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 import "package:intl/intl.dart";
 
-import "../../models/test.dart";
+import '../../models/test.dart';
 
 class TaskCompleted extends StatelessWidget {
   final List<Test> completedTasks;

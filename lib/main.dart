@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+
 import 'LogInPage/login_page.dart';
 import './menuBar/menuBarScreens/fees.dart';
 import './menuBar/menuBarScreens/profile.dart';
 import './menuBar/menuBarScreens/registration/registration.dart';
 import './menuBar/menuBarScreens/settings.dart';
+import './subject_page/tests_comp/tests_modal.dart';
 
 void main() {
   runApp(const MyApp());
@@ -45,6 +47,7 @@ class MyApp extends StatelessWidget {
         'registrationPage': (context) => const registration(),
         'feesPage': (context) => const fees(),
         'settingsPage': (context) => const settings(),
+        TestsModal.routeName: (ctx) => TestsModal(),
       },
     );
   }

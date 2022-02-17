@@ -59,7 +59,7 @@ class _profileState extends State<profile> {
             Container(
               width: 110,
               child: TextField(
-                decoration: const InputDecoration(label: Text('Date of Birth')),
+                decoration: const InputDecoration(labelText: 'Date of Birth'),
                 controller: dateinput,
                 onTap: () async {
                   DateTime pickedDate = DateTime(2);
